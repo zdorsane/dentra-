@@ -1,4 +1,4 @@
-# DENTRA
+﻿# DENTRA
 
 **The intelligent operating system for dental clinics.**
 
@@ -34,8 +34,8 @@ DENTRA is a dental clinic management platform: patients, appointments, treatment
 Requirements: Node.js 20 or later and npm.
 
 ```bash
-git clone https://github.com/zdorsane233-spec/dentra.git
-cd dentra
+git clone https://github.com/zdorsane/dentra-.git
+cd dentra-
 npm install
 npm run dev
 ```
@@ -82,4 +82,4 @@ public/       Static assets
 
 The app is deployed on [Vercel](https://vercel.com). Every push to `main` triggers a production deployment, and every pull request gets a preview URL.
 
-To deploy your own copy, import the repository at [vercel.com/new](https://vercel.com/new). Vercel detects Next.js automatically; add the Supabase variables under **Settings → Environment Variables** if you use Supabase.
+To deploy your own copy, import the repository at [vercel.com/new](https://vercel.com/new). Vercel detects Next.js automatically; add the Supabase variables under **Settings â†’ Environment Variables** if you use Supabase.
