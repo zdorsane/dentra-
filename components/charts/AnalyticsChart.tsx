@@ -147,7 +147,7 @@ export function AnalyticsChart({
     <div className={cn('w-full', className)} style={{ height }}>
       <ResponsiveContainer width="100%" height="100%">
         {type === 'bar' ? (
-          <BarChart data={data} margin={{ top: 8, right: 8, bottom: 0, left: -18 }}>
+          <BarChart data={data} margin={{ top: 8, right: 8, bottom: 0, left: 0 }}>
             {grid}
             <XAxis dataKey="label" interval={interval} {...axisProps} />
             <YAxis
@@ -170,7 +170,7 @@ export function AnalyticsChart({
             </Bar>
           </BarChart>
         ) : type === 'area' ? (
-          <AreaChart data={data} margin={{ top: 8, right: 8, bottom: 0, left: -18 }}>
+          <AreaChart data={data} margin={{ top: 8, right: 8, bottom: 0, left: 0 }}>
             <defs>
               <linearGradient id="dt-area-fill" x1="0" y1="0" x2="0" y2="1">
                 <stop offset="0%" stopColor={CHART_CYAN} stopOpacity={0.28} />
@@ -198,7 +198,7 @@ export function AnalyticsChart({
             />
           </AreaChart>
         ) : (
-          <LineChart data={data} margin={{ top: 8, right: 8, bottom: 0, left: -18 }}>
+          <LineChart data={data} margin={{ top: 8, right: 8, bottom: 0, left: 0 }}>
             {grid}
             <XAxis dataKey="label" interval={interval} {...axisProps} />
             <YAxis

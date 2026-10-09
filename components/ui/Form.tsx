@@ -295,7 +295,7 @@ export function SearchInput({
       <input
         id={fieldId}
         type="search"
-        className={cn('dt-input pl-9', className)}
+        className={cn('dt-input !pl-9', className)}
         {...rest}
       />
     </div>
